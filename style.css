@@ -1,0 +1,56 @@
+body{
+background-color: black;
+
+}
+
+nav ul{
+display: flex;
+justify-content:flex-end;
+list-style-type: none;
+padding: 20px 0px 20px 0px;
+color:azure
+}
+li { 
+display: flex;
+padding: 0px 25px 0px 25px;
+
+}
+a {
+    color: inherit;
+}
+.div{
+    justify-content: space-around;
+
+
+}
+p { color: white
+
+
+
+}
+img {
+    width: 55%;
+    height: auto;
+  }
+.main { width: 70%;
+    margin: auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns:  repeat(1, 500px);
+    grid-template-rows: repeat(3, auto);
+
+
+}
+#box1{
+
+    display: flex;
+
+}
+#box2{
+
+    display: flex;
+}
+#box3{
+
+    display: flex;
+}
